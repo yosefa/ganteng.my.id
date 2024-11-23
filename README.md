@@ -1,13 +1,15 @@
 # Yosefa Ferdianto - Portfolio Website
 
-A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my professional experience, technical skills, and featured projects.
+A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my professional experience, technical skills, and featured projects. The design is inspired by Google's Material Design principles and aesthetic.
+
+> **Note**: The design and styling of this portfolio website draws inspiration from Google's clean, modern aesthetic and Material Design principles. This implementation represents my interpretation of Google's design language while maintaining originality in the overall composition and user experience.
 
 ![Portfolio Preview](./preview.png)
 
 ## 🌟 Features
 
-- Clean and modern UI with a gradient background
-- Smooth animations and hover effects
+- Clean and modern UI with a gradient background inspired by Google's material palette
+- Smooth animations and hover effects following Material Design motion principles
 - Responsive design that works on all devices
 - Interactive skill cards with categorized technical abilities
 - Detailed project showcase with technology tags
@@ -52,12 +54,12 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yosefa/portfolio.git
+git clone https://github.com/yosefa/ganteng.my.id.git
 ```
 
 2. Navigate to the project directory
 ```bash
-cd portfolio
+cd ganteng.my.id
 ```
 
 3. Install dependencies
@@ -88,7 +90,7 @@ To customize this portfolio for your own use:
 
 ## 🎨 Color Scheme
 
-The website uses a carefully chosen color palette:
+The website uses a carefully chosen color palette inspired by Google's Material Design:
 - Primary gradient: `from-blue-50 via-indigo-50 to-purple-50`
 - Text gradient: `from-blue-600 via-indigo-600 to-purple-600`
 - Accent colors: Various shades of blue and indigo
@@ -111,6 +113,12 @@ The portfolio is fully responsive and optimized for:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Design inspiration from Google's Material Design principles and aesthetic
+- Icons provided by Lucide React
+- Built with React and Tailwind CSS
 
 ---
 
