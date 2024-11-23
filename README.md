@@ -4,6 +4,8 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 
 > **Note**: The design and styling of this portfolio website draws inspiration from Google's clean, modern aesthetic and Material Design principles. This implementation represents my interpretation of Google's design language while maintaining originality in the overall composition and user experience.
 
+🌐 **Live Demo**: [https://ganteng.my.id](https://ganteng.my.id)
+
 ![Portfolio Preview](./preview.png)
 
 ## 🌟 Features
