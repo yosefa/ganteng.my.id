@@ -84,7 +84,7 @@ yarn dev
 
 To customize this portfolio for your own use:
 
-1. Update the personal information in `Home.tsx`
+1. Update the personal information in `Page.tsx`
 2. Modify the skills in the `SkillCard` components
 3. Update the project information in the `ProjectCard` components
 4. Replace social media links with your own
