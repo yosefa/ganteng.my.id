@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yosefa Ferdianto - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my professional experience, technical skills, and featured projects.
 
-First, run the development server:
+![Portfolio Preview](./preview.png)
 
+## 🌟 Features
+
+- Clean and modern UI with a gradient background
+- Smooth animations and hover effects
+- Responsive design that works on all devices
+- Interactive skill cards with categorized technical abilities
+- Detailed project showcase with technology tags
+- Social media links with hover tooltips
+- Seamless navigation and user experience
+
+## 🛠️ Built With
+
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React Icons
+- Custom gradient effects
+- Modern animation transitions
+
+## 🚀 Technical Skills Showcased
+
+- **Frontend Development**: HTML, CSS, Bootstrap, jQuery, React
+- **Backend Development**: PHP, Node.js, Python, CodeIgniter, Express
+- **Database Management**: MySQL, MariaDB, SQLite, SQL Server
+- **Mobile Development**: React Native, Java, Kotlin
+- **Cloud & DevOps**: Hosting, VPS, Ubuntu, RedHat, Git, Docker
+- **Security & CMS**: CyberSecurity, SSL, Nginx, WordPress
+
+## 💼 Featured Projects
+
+- Enterprise Resource Planning System
+- AI Server Infrastructure
+- Smart Estimation Tools
+- Advanced CCTV Monitoring
+- Corporate Web Management
+- Employee Loan Portal
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yosefa/portfolio.git
+```
+
+2. Navigate to the project directory
+```bash
+cd portfolio
+```
+
+3. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and visit `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To customize this portfolio for your own use:
 
-## Learn More
+1. Update the personal information in `Home.tsx`
+2. Modify the skills in the `SkillCard` components
+3. Update the project information in the `ProjectCard` components
+4. Replace social media links with your own
+5. Adjust the color scheme by modifying the Tailwind classes
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Color Scheme
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website uses a carefully chosen color palette:
+- Primary gradient: `from-blue-50 via-indigo-50 to-purple-50`
+- Text gradient: `from-blue-600 via-indigo-600 to-purple-600`
+- Accent colors: Various shades of blue and indigo
+- Background: White and gradient combinations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Responsive Design
 
-## Deploy on Vercel
+The portfolio is fully responsive and optimized for:
+- Mobile devices
+- Tablets
+- Desktop screens
+- Wide screens
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📧 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [@yosefa](https://github.com/yosefa)
+- LinkedIn: [yosefaferdianto](https://linkedin.com/in/yosefaferdianto)
+- Email: yosefa@ganteng.my.id
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ♥ in Jakarta
