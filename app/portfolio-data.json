@@ -1,0 +1,179 @@
+{
+    "personalInfo": {
+        "name": "Yosefa Ferdianto",
+        "title": "Full Stack Developer | Software Engineer",
+        "socialLinks": [
+            {
+                "platform": "GitHub",
+                "href": "https://github.com/yosefa",
+                "icon": "Github"
+            },
+            {
+                "platform": "LinkedIn",
+                "href": "https://linkedin.com/in/yosefaferdianto",
+                "icon": "Linkedin"
+            },
+            {
+                "platform": "Email",
+                "href": "mailto:yosefa@ganteng.my.id",
+                "icon": "Mail"
+            }
+        ]
+    },
+    "introduction": {
+        "greeting": "Hello 👋",
+        "mainText": "I'm Yosefa, a passionate full-stack developer with a love for learning and continuous growth. Over the years, I've tackled a variety of challenging projects that have shaped me into the professional I am today. My philosophy is simple: technology should solve problems, not create them. That's why I focus on crafting solutions that make life and work easier.",
+        "callToAction": {
+            "title": "Let's collaborate!",
+            "text": "I'm always excited to explore new projects and collaborate on fresh ideas! Whether you need a hand with tech solutions or just want to bounce around some thoughts, don't hesitate to reach out."
+        }
+    },
+    "skills": [
+        {
+            "title": "Frontend Development",
+            "icon": "Code2",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "jQuery",
+                "React"
+            ]
+        },
+        {
+            "title": "Backend Development",
+            "icon": "Server",
+            "skills": [
+                "PHP",
+                "Node.js",
+                "Python",
+                "CodeIgniter",
+                "Express"
+            ]
+        },
+        {
+            "title": "Database Management",
+            "icon": "Database",
+            "skills": [
+                "MySQL",
+                "MariaDB",
+                "SQLite",
+                "SQL Server"
+            ]
+        },
+        {
+            "title": "Mobile Development",
+            "icon": "Smartphone",
+            "skills": [
+                "React Native",
+                "Java",
+                "Kotlin"
+            ]
+        },
+        {
+            "title": "Cloud & DevOps",
+            "icon": "Cloud",
+            "skills": [
+                "Hosting",
+                "VPS",
+                "Ubuntu",
+                "RedHat",
+                "Git",
+                "Docker"
+            ]
+        },
+        {
+            "title": "Security & CMS",
+            "icon": "Shield",
+            "skills": [
+                "CyberSecurity",
+                "SSL",
+                "Nginx",
+                "WordPress"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "erp-system",
+            "title": "Enterprise Resource Planning System",
+            "shortDescription": "A comprehensive web-based ERP system designed to revolutionize business operations with seamless integration of essential functions.",
+            "tags": [
+                "PHP",
+                "CodeIgniter",
+                "Node.js",
+                "Express",
+                "React Native",
+                "C++",
+                "MySQL",
+                "SQLite",
+                "jQuery",
+                "Bootstrap",
+                "Microsoft Graph API"
+            ],
+            "fullDescription": "The Enterprise Resource Planning (ERP) system is a transformative platform that centralizes business processes, enabling seamless collaboration across departments. Designed for scalability and efficiency, it integrates modules for accounting, inventory management, sales tracking, human resources, and logistics. The system ensures real-time data synchronization, reducing manual effort and minimizing errors. Its intuitive interface allows users to quickly navigate complex workflows, while its advanced reporting tools provide actionable insights for data-driven decision-making. Integration with APIs like Microsoft Graph and Mekari Talenta enhances functionality, offering extended capabilities for payroll management, communication, and cloud synchronization. The ERP system is ideal for businesses seeking to optimize operations, improve data accuracy, and scale their solutions to meet evolving needs. Customizable features make it adaptable to diverse industries, ensuring it aligns perfectly with unique organizational requirements."
+        },
+        {
+            "id": "ai-server",
+            "title": "AI Server Infrastructure",
+            "shortDescription": "A scalable and efficient platform for deploying and managing AI models using containerization technologies.",
+            "tags": [
+                "Claude",
+                "Llama AI",
+                "Open WebUI",
+                "Docker",
+                "Python"
+            ],
+            "fullDescription": "The AI Server Infrastructure project is an advanced solution for hosting and managing AI models at scale. It leverages containerization technologies like Docker to ensure smooth deployment, scalability, and isolation of AI workloads. The platform includes automated pipelines for deployment, reducing the time from development to production. Its monitoring tools provide real-time insights into resource utilization and performance metrics, ensuring optimal usage of hardware and software. Load balancing capabilities enable efficient distribution of tasks, reducing bottlenecks and enhancing overall system efficiency. The infrastructure supports popular AI frameworks, making it suitable for a wide range of machine learning and deep learning applications. Designed to handle demanding computational workloads, this platform ensures stability, security, and ease of management for researchers and engineers. It is a reliable solution for organizations aiming to scale AI operations while maintaining performance and cost-effectiveness."
+        },
+        {
+            "id": "estimation-tools",
+            "title": "Smart Estimation Tools",
+            "shortDescription": "A web-based solution for simplifying and automating project estimation workflows.",
+            "tags": [
+                "PhpSpreadsheet",
+                "Cron",
+                "MySQL"
+            ],
+            "fullDescription": "Smart Estimation Tools are designed to redefine the way project estimates are created and managed. This web-based application automates complex calculations, reduces manual errors, and saves time for project estimators. The system leverages historical data and trends to generate accurate projections, helping businesses make informed decisions. Customizable templates allow users to tailor proposals to meet specific client needs, ensuring a professional presentation every time. The platform integrates seamlessly with existing databases, offering synchronization capabilities that ensure data accuracy across all modules. Automated scheduling via cron jobs ensures timely updates and notifications, keeping all stakeholders informed. Its user-friendly interface simplifies navigation, making it accessible even to non-technical users. This tool not only enhances operational efficiency but also fosters collaboration among teams, enabling faster project approval cycles and better resource allocation."
+        },
+        {
+            "id": "cctv-monitoring",
+            "title": "Advanced CCTV Monitoring",
+            "shortDescription": "A real-time video surveillance solution with advanced recording and analytics features.",
+            "tags": [
+                "Motion",
+                "Debian",
+                "Rclone",
+                "IP Camera",
+                "Hikvision"
+            ],
+            "fullDescription": "The Advanced CCTV Monitoring system is a sophisticated solution for enhancing security and operational oversight. It provides real-time video surveillance capabilities with live streaming from multiple IP cameras. Motion detection technology ensures that critical events are captured and recorded automatically, reducing the need for constant human monitoring. The system supports integration with cloud storage services via Rclone, ensuring secure and scalable storage options for recorded footage. Advanced analytics tools enable the identification of patterns, anomalies, and potential security threats, offering actionable insights to improve response times. Built on a stable Debian platform, the system is highly reliable and easy to maintain. It is compatible with various camera brands, including Hikvision, ensuring flexibility in hardware choices. With its robust architecture and intuitive interface, this solution is ideal for businesses looking to enhance their security infrastructure while optimizing costs."
+        },
+        {
+            "id": "web-management",
+            "title": "Corporate Web Management",
+            "shortDescription": "Ensuring a seamless online presence through hosting and domain management for company websites.",
+            "tags": [
+                "WordPress",
+                "Hosting",
+                "Domain"
+            ],
+            "fullDescription": "Corporate Web Management is an essential service designed to ensure the uninterrupted operation and optimal performance of company websites. This solution includes end-to-end management of hosting, domain registration, and SSL certificate setup, providing a secure and reliable online presence. Automated backup systems safeguard critical data, allowing for quick recovery in case of failures or cyberattacks. Performance optimization tools analyze website speed and user experience, implementing improvements to maximize engagement. Security monitoring protects against vulnerabilities, ensuring compliance with industry standards. The solution supports seamless integration with third-party analytics platforms, giving businesses deep insights into traffic and user behavior. With proactive maintenance and support, Corporate Web Management eliminates the technical challenges of website administration, allowing organizations to focus on their core business goals. It is a comprehensive package for businesses aiming to strengthen their digital presence."
+        },
+        {
+            "id": "loan-portal",
+            "title": "Employee Loan Portal",
+            "shortDescription": "An intuitive system for managing employee loan applications with automated workflows.",
+            "tags": [
+                "Microsoft Power Apps",
+                "Microsoft Power Automate",
+                "Microsoft Forms"
+            ],
+            "fullDescription": "The Employee Loan Portal is a comprehensive system designed to simplify the loan application process for employees. Built on Microsoft Power Apps and Power Automate, it offers a seamless workflow from submission to approval. Employees can easily fill out loan request forms, upload supporting documents, and track application statuses in real time. Administrators benefit from automated workflows that ensure compliance with company policies and expedite decision-making. Notifications keep all parties informed of changes, reducing delays and improving transparency. The system integrates with existing HR tools, providing a centralized platform for managing employee financial assistance. Its intuitive design ensures accessibility for all users, regardless of technical expertise. By automating repetitive tasks and ensuring accurate record-keeping, the Employee Loan Portal enhances efficiency, reduces administrative burdens, and fosters trust between employees and management. This solution is perfect for organizations looking to streamline internal processes and improve employee satisfaction."
+        }
+    ],
+    "footer": {
+        "text": "Made with ♥ in Jakarta"
+    }
+}
