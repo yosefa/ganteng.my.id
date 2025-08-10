@@ -53,6 +53,14 @@ const Page = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
             <div className="container mx-auto px-4 py-16 space-y-12">
+                <a
+                    href="https://yosefa.my.id"
+                    className="block text-center text-blue-600 hover:text-blue-800 font-semibold"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit my profile
+                </a>
                 {/* Header Section */}
                 <header className="text-center space-y-6 animate-fade-in">
                     <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-transparent bg-clip-text">
