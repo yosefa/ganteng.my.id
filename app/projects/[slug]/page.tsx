@@ -14,12 +14,11 @@ export async function generateStaticParams() {
 }
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }
 
-export default async function ProjectPage({ params }: PageProps) {
-  const resolvedParams = await params;
-  const project = projects.find((p) => p.id === resolvedParams.slug);
+export default function ProjectPage({ params }: PageProps) {
+  const project = projects.find((p) => p.id === params.slug);
 
     if (!project) {
         notFound();
