@@ -17,6 +17,7 @@ import {
     Layout,
     ExternalLink,
     ArrowRight,
+    UserCircle // Added for profile icon
 } from "lucide-react";
 import Link from "next/link";
 import portfolioData from './portfolio-data.json';
@@ -32,20 +33,8 @@ const iconMap = {
     Smartphone,
     Cloud,
     Shield,
+    UserCircle // Added profile icon to the map
 };
-
-interface SkillCardProps {
-    icon: React.ReactNode;
-    title: string;
-    skills: string[];
-}
-
-interface ProjectCardProps {
-    title: string;
-    description: string;
-    tags: string[];
-    id?: string;
-}
 
 const Page = () => {
     const { personalInfo, introduction, skills, projects, footer } = portfolioData;
@@ -53,14 +42,6 @@ const Page = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
             <div className="container mx-auto px-4 py-16 space-y-12">
-                <a
-                    href="https://yosefa.my.id"
-                    className="block text-center text-blue-600 hover:text-blue-800 font-semibold"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Visit my profile
-                </a>
                 {/* Header Section */}
                 <header className="text-center space-y-6 animate-fade-in">
                     <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-transparent bg-clip-text">
@@ -76,6 +57,13 @@ const Page = () => {
                                 label={link.platform}
                             />
                         ))}
+
+                        {/* Added profile icon here */}
+                        <SocialLink
+                            href="https://yosefa.my.id"
+                            icon={<UserCircle />}
+                            label="Profile"
+                        />
                     </div>
                 </header>
 
@@ -165,6 +153,8 @@ const SocialLink: React.FC<{ href: string; icon: React.ReactNode; label: string 
         href={href}
         className="p-3 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-all duration-300 group relative"
         aria-label={label}
+        target="_blank"
+        rel="noopener noreferrer"
     >
         <div className="w-6 h-6">{icon}</div>
         <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm">
@@ -173,7 +163,7 @@ const SocialLink: React.FC<{ href: string; icon: React.ReactNode; label: string 
     </a>
 );
 
-const SkillCard: React.FC<SkillCardProps> = ({ icon, title, skills }) => (
+const SkillCard = ({ icon, title, skills }: { icon: React.ReactNode; title: string; skills: string[] }) => (
     <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl transform hover:scale-105 transition-all duration-300 hover:shadow-lg">
         <div className="flex items-center gap-3 mb-4">
             <div className="text-blue-600 w-6 h-6">{icon}</div>
@@ -183,7 +173,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ icon, title, skills }) => (
     </div>
 );
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, tags, id }) => (
+const ProjectCard = ({ title, description, tags, id }: { title: string; description: string; tags: string[]; id?: string }) => (
     <Link 
         href={`/projects/${id}`} 
         className="block group border-b border-gray-100 pb-8 transform hover:scale-[1.01] transition-all duration-300"
